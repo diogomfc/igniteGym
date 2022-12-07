@@ -5,7 +5,7 @@ import {NativeBaseProvider} from 'native-base';
 
 import {THEME} from './src/theme';
 import {Loading} from '@components/Loading';
-import {SignIn} from '@screens/SignIn';
+import {SignIn} from '@screens/Signin';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
